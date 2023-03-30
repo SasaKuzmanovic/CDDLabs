@@ -30,7 +30,7 @@ void updateTask(std::shared_ptr<Semaphore> firstSem, int numUpdates)
 
 int main(void){
   std::vector<std::thread> vt(num_threads);
-  std::shared_ptr<Semaphore> aSemaphore( new Semaphore);
+  std::shared_ptr<Semaphore> aSemaphore( new Semaphore(1));
   /**< Launch the threads  */
   int i=0;
   for(std::thread& t: vt){
