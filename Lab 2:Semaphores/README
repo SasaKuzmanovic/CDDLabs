@@ -1,10 +1,30 @@
-The README file is a text filw that explains what a project is.
+// Filename: README
+// Author: Sasa Kuzmanovic
+// Date: 31/03/2023
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or (at
+// your option) any later version.
+//
+// This program is distributed in the hope that it will be useful, but
+// WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+// General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
+//
+//
+
+The README file is a text file that explains what a project is.
 It should contain information on
 
-1. Project Licence
-2. Authors of Project
-3. How to install project
-4. List of any required Libraries, platform issues, etc.
-5. TO DO section listing items that need to be completed (errors, missing features etc.)
-6. List of files and what they contain
+1. GNU General Public License
+2. Sasa Kuzmanovic
+3. Clone the project, open the terminal inside the Lab you want to start and type in make in the terminal
+4. Mutex, condition_variable, chrono, iostream, vector, thread
+5. -
+6.	Semaphore.h - Declares Signal and Wait functions and holds variables
+	Semaphore.cpp - Defines the Wait and Signal functions
+	main.cpp - Defines taskOne and taskTwo, and handles logic of how a Semaphore is supposed to work
 7. Any other relevent information
